@@ -212,17 +212,6 @@ export default class SharePointNews extends React.Component<
           `}
         </style>
         <div>
-          {/* <DefaultButton
-            text="New"
-            iconProps={{ iconName: "Add" }}
-            onClick={() => {
-              this.setState({
-                ShowForm: true,
-              });
-            }}
-            style={{ display: !this.state.ShowForm ? "" : "none" }}
-          /> */}
-
           <div className={styles.sharePointNews_FromContent}>
             <form
               action=""
