@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-news-client-side-solution",
+    "id": "3bc9d44c-b1d8-45f3-9df1-c4f1fde7ab42",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Swami Nawale",
+      "websiteUrl": "https://swaminawale.com/",
+      "privacyUrl": "https://swaminawale.com/",
+      "termsOfUseUrl": "https://swaminawale.com/",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All        "
+      }
+    ,{
+      "resource": "Microsoft Graph",
+      "scope": "Sites.ReadWrite.All"
+    }]
+    ,
+    "metadata": {
+      "shortDescription": {
+        "default": "SharePoint News description"
+      },
+      "longDescription": {
+        "default": "SharePoint News description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "share-point-news Feature",
+        "description": "The feature that activates elements of the share-point-news solution.",
+        "id": "b1d287a8-9314-423d-8f58-c4b8e896cbd6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-news.sppkg"
+  }
+}

@@ -1,0 +1,57 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.sharePointNews {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+.sharePointNews_FromContent {
+  background-color: white;
+}
+.sharePointNews_Content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+  margin: 12px 0;
+  p {
+    margin: 0;
+  }
+}
+.sharePointNews_NewsItem {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  gap: 0 12px;
+  padding: 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  &:hover {
+    .sharePointNews_NewsItem_Title {
+      color: rgb(0, 179, 255);
+    }
+  }
+}
+.sharePointNews_NewsItem_Title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+.sharePointNews_NewsItem_Description {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+.sharePointNews_NewsItem_Image {
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+.sharePointNews_RTE {
+  position: relative;
+}

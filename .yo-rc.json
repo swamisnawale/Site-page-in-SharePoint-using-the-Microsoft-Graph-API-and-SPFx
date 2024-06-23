@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "share-point-news",
+    "libraryId": "3bc9d44c-b1d8-45f3-9df1-c4f1fde7ab42",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SharePoint News",
+    "solutionShortDescription": "SharePoint News description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
